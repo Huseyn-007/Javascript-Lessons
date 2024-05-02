@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="light-theme" id="calculator">
+      <section id="salam">
+        <label class="switch">
+          <input
+            onclick="themeSwitch()"
+            id="theme-toggle"
+            type="checkbox"
+            checked
+          />
+          <span class="slider round"></span>
+        </label>
+      </section>
+
+      <div class="calc-text">
+        <p name="user-input" id="user-input">0</p>
+      </div>
+
+      <div class="calc-keys">
+        <button type="button" id="cKey" class="operation-keys">C</button>
+        <button type="button" class="operation-keys"> % </button>
+        <button type="button" class="operation-keys"> <= </button>
+        <button class="operation-keys right">/</button>
+        <button type="button" class="numbers">7</button>
+        <button type="button" class="numbers">8</button>
+        <button type="button" class="numbers">9</button>
+        <button class="operation-keys right">*</button>
+        <button type="button" class="numbers">4</button>
+        <button type="button" class="numbers">5</button>
+        <button type="button" class="numbers">6</button>
+        <button class="operation-keys right">-</button>
+        <button type="button" class="numbers">1</button>
+        <button type="button" class="numbers">2</button>
+        <button type="button" class="numbers">3</button>
+        <button class="operation-keys right">+</button>
+        <button type="button" class="key-zero numbers">00</button>
+        <button type="button" class="key-zero numbers">0</button>
+        <button type="button" class="numbers">.</button>
+        <button class="operation-keys right">=</button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
