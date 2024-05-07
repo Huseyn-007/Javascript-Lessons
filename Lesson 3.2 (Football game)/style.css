@@ -1,0 +1,30 @@
+body{
+    background: url(assets/chamionsLeagueBackground.jpg) ;
+    width: 100%;
+    height: 100%;
+}
+
+#area{
+    background: url(assets/area.jpg) no-repeat;
+    width: 28%;
+    height: 40vh;
+    margin: auto;
+    margin-top: 200px;
+
+
+
+
+}
+
+#player1{
+    position: absolute;
+   width: 50px;
+}
+
+
+
+#player2{
+   position: absolute;
+   right: 350px;
+    width: 50px;
+}
