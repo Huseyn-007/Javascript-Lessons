@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 200px;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  border-radius: 10%;
+}
+
+i {
+  position: absolute;
+  top: 45%;
+  font-size: 6em;
+  color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  border-radius: 50%;
+  transition-property: color;
+  transition-duration: 0.5s;
+}
+
+
+i:hover{
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+#left {
+  left: 5%;
+}
+
+#right {
+  right: 5%;
+}
+
+
+
+@media only screen and (max-width:768px) {
+
+    i{
+        font-size: 3em;
+        top: 45%;
+
+    }
+
+    .container{
+        width: 95%;
+    }
+}
