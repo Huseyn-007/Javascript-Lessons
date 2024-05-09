@@ -1,0 +1,23 @@
+.container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    position: relative;
+    display: flex;
+    overflow: hidden ;
+    border: 10px solid red;
+}
+
+#myimg{
+
+    margin-left: 0%;
+}
+
+img{
+    width: 100%;
+    transition-property: margin-left, border-radius;
+    transition-duration: 1.5s;
+    border-radius: 0%;
+    
+}
